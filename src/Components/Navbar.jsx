@@ -41,7 +41,7 @@ const Navbar = () => {
            alignItems= "center"
        >
           <Box
-            onClick ={() => navigate("/")}
+            
             sx = {{ '5:hover' : {cursor: "pointer"}}} 
             color = "blue"
          >
@@ -57,9 +57,9 @@ const Navbar = () => {
           >
 
             
-          <Link to="welcome">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to = "/" >Listings</Link>
+          <Link to="">Home</Link>
+          <Link to="">About</Link>
+          <Link to = "" >Listings</Link>
             
            <IconButton sx = {{color: "black"}}>
             <SearchOutlined />
