@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../Components/Navbar";
 import { auth } from "../firebase";
 
-const Home = () => {
+const LandLordHome = () => {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
@@ -35,4 +35,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default LandLordHome;
