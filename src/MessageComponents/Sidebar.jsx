@@ -1,5 +1,5 @@
 import React from "react";
-import MessageNavbar from "./Navbar"
+import MessageNavbar from "./MessageNavbar"
 import Search from "./Search"
 import Chats from "./Chats"
 

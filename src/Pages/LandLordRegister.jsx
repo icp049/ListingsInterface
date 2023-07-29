@@ -44,7 +44,7 @@ const LandLordRegister = () => {
             });
 
             //create empty user chats on firestore
-            
+           
             navigate("/landlordlogin");
           } catch (err) {
             console.log(err);
