@@ -9,6 +9,20 @@ import LandLordRegister from "./Pages/LandLordRegister";
 import LandLordHome from "./Pages/LandLordHome";
 
 
+import { useContext } from "react";
+import { AuthContext } from "./context/AuthContext";
+
+const ProtectedRoute = ({ children }) => {
+  if (!currentUser) {
+    return <Navigate to="/login" />;
+  }
+
+  return children
+};
+
+const { currentUser } = useContext(AuthContext);
+
+
 function App() {
   return (
     <Router>
@@ -18,6 +32,16 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/landlordregister" element={<LandLordRegister />} />
         <Route path="/landlordhome" element={<LandLordHome />} />
+
+        <Route
+            index
+            element={
+              <ProtectedRoute>
+                <Messages />
+              </ProtectedRoute>
+            }
+          />
+
         
 
         {/* Add other routes here, if needed */}
