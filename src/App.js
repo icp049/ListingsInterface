@@ -5,6 +5,9 @@ import Login from "./Pages/Login";
 import Home from "./Pages/Home";
 import LoginTabs from "./Pages/LoginTabs";
 import "./style.scss";
+import LandLordRegister from "./Pages/LandLordRegister";
+
+
 function App() {
   return (
     <Router>
@@ -12,6 +15,8 @@ function App() {
         <Route path="/" element={<LoginTabs/>} />
         <Route path="/register" element={<Register />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/landlordregister" element={<LandLordRegister />} />
+        
 
         {/* Add other routes here, if needed */}
       </Routes>

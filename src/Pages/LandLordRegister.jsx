@@ -63,7 +63,7 @@ const LandLordRegister = () => {
     <div className="formContainer">
       <div className="formWrapper">
         <span className="logo">Tosmos Listings</span>
-        <span className="title">Register</span>
+        <span className="title">Register as a property owner</span>
         <form onSubmit={handleSubmit}>
           <input required type="text" placeholder="display name" />
           <input required type="email" placeholder="email" />

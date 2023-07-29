@@ -30,7 +30,7 @@ const LandLordLogin = () => {
           <button>Sign in</button>
           {err && <span>Something went wrong</span>}
         </form>
-        <p>Want to list your place? <Link to="/register">Register</Link></p>
+        <p>Want to list your place? <Link to="/landlordregister">Register</Link></p>
       </div>
     </div>
   );
