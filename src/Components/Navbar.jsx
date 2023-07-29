@@ -1,6 +1,6 @@
 import { Box, IconButton } from '@mui/material';
 import {
-  ShoppingBagOutlined,
+  
   SearchOutlined,
   ExitToAppOutlined, // 1. Import the ExitToAppOutlined icon
 } from '@mui/icons-material';

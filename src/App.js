@@ -7,6 +7,7 @@ import LoginTabs from "./Pages/LoginTabs";
 import "./style.scss";
 import LandLordRegister from "./Pages/LandLordRegister";
 import LandLordHome from "./Pages/LandLordHome";
+import Messages from "./Pages/Messages";
 
 
 import { useContext } from "react";
