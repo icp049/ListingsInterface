@@ -14,7 +14,7 @@ const LandLordLogin = () => {
 
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate("/home")
+      navigate("/landlordhome")
     } catch (err) {
       setErr(true);
     }
