@@ -8,7 +8,7 @@ import "./style.scss";
 import LandLordRegister from "./Pages/LandLordRegister";
 import LandLordHome from "./Pages/LandLordHome";
 import LandLordLogin from "./Pages/LandLordLogin";
-import Messages from "./Pages/Messages";
+import MessagePage from "./Pages/MessagePage";
 import { useContext } from "react";
 import { AuthContext } from "./context/AuthContext";
 
@@ -35,7 +35,7 @@ function App() {
           path="/messages"
           element={
             <ProtectedRoute>
-              <Messages />
+              <MessagePage />
             </ProtectedRoute>
           }
         />
