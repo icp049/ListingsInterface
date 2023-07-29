@@ -50,7 +50,7 @@ const Navbar = () => {
           zIndex="2"
         >
           <Link to="">Home</Link>
-          <Link to="">About</Link>
+          <Link to="/messages">Messages</Link>
           <Link to="">Listings</Link>
 
           <IconButton sx={{ color: "black" }}>
