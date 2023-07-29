@@ -23,14 +23,14 @@ const LandLordLogin = () => {
     <div className="formContainer">
       <div className="formWrapper">
         <span className="logo">Tosmos Listings</span>
-        <span className="title">Tenant Login</span>
+        <span className="title">LandLord Login</span>
         <form onSubmit={handleSubmit}>
           <input type="email" placeholder="email" />
           <input type="password" placeholder="password" />
           <button>Sign in</button>
           {err && <span>Something went wrong</span>}
         </form>
-        <p>You don't have an account? <Link to="/register">Register</Link></p>
+        <p>Want to list your place? <Link to="/register">Register</Link></p>
       </div>
     </div>
   );
