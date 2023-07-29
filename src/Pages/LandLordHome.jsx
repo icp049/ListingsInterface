@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
+import {Link} from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import { auth } from "../firebase";
+
 
 const LandLordHome = () => {
   const [user, setUser] = useState(null);
@@ -27,10 +29,9 @@ const LandLordHome = () => {
 
   return (
     <div>
-      <Navbar />
-      <div style= {{ display: "flex", justifyContent: "center", alignItems: "center"}}>
-        <button> Add a Listing </button>
-      </div>
+        <Link to = "/addlisting">
+      <button> add a listing </button>
+      </Link>
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
         <h1>{getGreetingMessage()}</h1>
       </div>

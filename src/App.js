@@ -9,6 +9,7 @@ import LandLordRegister from "./Pages/LandLordRegister";
 import LandLordHome from "./Pages/LandLordHome";
 import LandLordLogin from "./Pages/LandLordLogin";
 import MessagePage from "./Pages/MessagePage";
+import AddListing from "./Pages/AddListing";
 import { useContext } from "react";
 import { AuthContext } from "./context/AuthContext";
 
@@ -30,6 +31,8 @@ function App() {
         <Route path="/landlordregister" element={<LandLordRegister />} />
         <Route path="/landlordhome" element={<LandLordHome />} />
         <Route path="/landlordlogin" element={<LandLordLogin />} />
+        <Route path="/addlisting" element={<AddListing />} />
+
 
         <Route
           path="/messages"
