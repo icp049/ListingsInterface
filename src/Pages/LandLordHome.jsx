@@ -30,7 +30,7 @@ const LandLordHome = () => {
   return (
     <div>
         <Link to = "/addlisting">
-      <button> add a listing </button>
+      <button> add a listing here </button>
       </Link>
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
         <h1>{getGreetingMessage()}</h1>
@@ -38,5 +38,3 @@ const LandLordHome = () => {
     </div>
   );
 };
-
-export default LandLordHome;
