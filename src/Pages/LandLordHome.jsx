@@ -30,7 +30,7 @@ const LandLordHome = () => {
   return (
     <div>
         <Link to = "/addlisting">
-      <button> add Listing </button>
+      <button> add Listing sdfsd </button>
       </Link>
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
         <h1>{getGreetingMessage()}</h1>
